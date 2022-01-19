@@ -203,6 +203,7 @@
         <h3 id="hobbi_id">Hobbi</h3>
         <section>
           <ul>
+            <li>önképzés</li>
             <li>utazás</li>
             <li>sport: biciklizés, futás, síelés</li>
           </ul>
@@ -214,7 +215,11 @@
         <h3 id="Kapcsolat_id">Kapcsolat</h3>
         <fieldset>
           <legend>Kapcsolat űzlap</legend>
-          <form action="https://formspree.io/f/xrgjeayk" method="POST">
+          <form
+            target="_blank"
+            action="https://formspree.io/f/xrgjeayk"
+            method="POST"
+          >
             <section>
               <label>
                 Vezetéknév:
@@ -233,18 +238,18 @@
                   type="text"
                   name="keresztnév"
                   placeholder="Keresztnév"
-                  required="Add meg a keesztneved!"
+                  required
                 />
               </label>
             </section>
             <section>
               <label>
-                Email:
+                Email cím:
                 <input
                   type="email"
-                  name="_replyto"
+                  name="e-mail cím"
                   placeholder="@"
-                  required="Írj üzenetet!"
+                  required
                 />
               </label>
             </section>
@@ -253,8 +258,8 @@
                 Üzenet:
                 <textarea
                   name="üzenet"
-                  placeholder="Ide írd az üzenetet."
-                  required=""
+                  placeholder="Üzenetet szövege."
+                  required
                 ></textarea>
               </label>
             </section>
@@ -284,10 +289,10 @@
           ><img width="50" src="./images/youtube.png" alt="You Tube logó"
         /></a>
       </article>
-      <article>
+      <section>
         <button><a href="#navigáció_id">Oldal tetejére</a></button>
-      </article>
-      Copyright &copy; 2022 Bödőcs Tamás
+      </section>
+      <p>Copyright &copy; 2022 Bödőcs Tamás</p>
     </footer>
   </body>
 </html>
