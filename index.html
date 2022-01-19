@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bödőcs Tamás</title>
+    <link rel="shortcut icon" href="/images/coding.png" type="image/x-icon" />
     <style>
       section,
       fieldset {
@@ -17,7 +18,9 @@
     </style>
   </head>
   <body>
-    <nav></nav>
+    <nav>
+      <a href="#Közösségi_média">Közösségi média</a>
+    </nav>
     <header>
       <h1>Bödőcs Tamás</h1>
       <h2><em>önéletrajz</em></h2>
@@ -191,51 +194,64 @@
       </article>
     </main>
     <aside>
-      <fieldset>
-        <legend>Kapcsolat űzlap</legend>
-        <form action="https://formspree.io/f/xrgjeayk" method="POST">
-          <section>
-            <label>
-              Vezetéknév:
-              <input
-                type="text"
-                name="vezetéknév"
-                placeholder="Vezetéknév"
-                required=""
-              />
-            </label>
-          </section>
-          <section>
-            <label>
-              Keresztnév:
-              <input
-                type="text"
-                name="keresztnév"
-                placeholder="Keresztnév"
-                required=""
-              />
-            </label>
-          </section>
-          <section>
-            <label>
-              Email:
-              <input type="email" name="_replyto" placeholder="@" required="" />
-            </label>
-          </section>
-          <section>
-            <label>
-              Üzenet:
-              <textarea
-                name="üzenet"
-                placeholder="Ide írd az üzenetet."
-                required=""
-              ></textarea>
-            </label>
-          </section>
-          <button type="submit" value="Küldés">Küldés</button>
-        </form>
-      </fieldset>
+      <article>
+        <h3>Kapcsolat</h3>
+        <fieldset>
+          <legend>Kapcsolat űzlap</legend>
+          <form action="https://formspree.io/f/xrgjeayk" method="POST">
+            <section>
+              <label>
+                Vezetéknév:
+                <input
+                  type="text"
+                  name="vezetéknév"
+                  placeholder="Vezetéknév"
+                  required=""
+                />
+              </label>
+            </section>
+            <section>
+              <label>
+                Keresztnév:
+                <input
+                  type="text"
+                  name="keresztnév"
+                  placeholder="Keresztnév"
+                  required=""
+                />
+              </label>
+            </section>
+            <section>
+              <label>
+                Email:
+                <input
+                  type="email"
+                  name="_replyto"
+                  placeholder="@"
+                  required=""
+                />
+              </label>
+            </section>
+            <section>
+              <label>
+                Üzenet:
+                <textarea
+                  name="üzenet"
+                  placeholder="Ide írd az üzenetet."
+                  required=""
+                ></textarea>
+              </label>
+            </section>
+            <button type="submit" value="Küldés">Küldés</button>
+          </form>
+        </fieldset>
+      </article>
     </aside>
-    <footer>Copyright &copy; 2022 Bödőcs Tamás</footer>
+    <footer>
+      <article>
+        <h3 id="Közösségi_média">Közösségi média</h3>
+      </article>
+      Copyright &copy; 2022 Bödőcs Tamás
+    </footer>
   </body>
 </html>
