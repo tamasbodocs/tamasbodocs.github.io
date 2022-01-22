@@ -7,7 +7,7 @@
     <title>Bödőcs Tamás Portfólió</title>
     <link rel="shortcut icon" href="/images/coding.png" type="image/x-icon" />
     <style>
-      section,
+      div,
       fieldset {
         margin: 10px;
       }
@@ -18,103 +18,120 @@
     </style>
   </head>
   <body>
-    <nav>
-      <article>
+    <header>
+      <nav>
         <img
           id="navigáció_id"
           width="50"
           src="./images/coding.png"
           alt="coding logó"
         />
-        <a href="#rólam_id">Rólam</a>
-        <a href="#ismeretek_id">Ismeretek</a>
-        <a href="#portfólió_id">Portfólió</a>
-        <a href="#Kapcsolat_id">Kapcsolat</a>
-        <a href="">hu</a>
-        <a href="">en</a>
-        <a href="">de</a>
-      </article>
-    </nav>
-    <header>
+        <ul>
+          <li>
+            <a href="#rólam_id">Rólam</a>
+          </li>
+          <li>
+            <a href="#ismeretek_id">Ismeretek</a>
+          </li>
+          <li>
+            <a href="#portfólió_id">Portfólió</a>
+          </li>
+          <li>
+            <a href="#Kapcsolat_id">Kapcsolat</a>
+          </li>
+        </ul>
+      </nav>
       <h1>Bödőcs Tamás</h1>
       <h2>Junior Front End fejlesztő</h2>
       <img
         src="./images/pexels-negative-space-34088.jpg"
         alt="Profilfoto"
-        height="400"
-        width=""
+        width="600"
+        height=""
       />
     </header>
     <main>
-      <article>
+      <section>
         <h3 id="rólam_id">Rólam</h3>
-        <section>
+        <div>
           <p>2021 novemberében kezdtem el front end tanlmányimat.</p>
-          <a target="_blank" href="resume.html"
+          <a href="resume.html"
             ><img width="50" src="./images/cv_w.png" alt="cv logó"
           /></a>
-        </section>
-      </article>
-      <article>
+        </div>
+      </section>
+      <section>
         <h3 id="ismeretek_id">Ismeretek</h3>
-        <section>
+        <div>
           <img src="./images/html.png" alt="html logó" />
           <h4>HTML</h4>
           <p>
             Szemantikus markup, profi weboldalak készítése, akadálymentesítés,
             SEO-barátságos szerkezet
           </p>
-        </section>
-        <section>
+        </div>
+        <div>
           <img src="./images/css.png" alt="css logó" />
           <h4>CSS</h4>
           <p>
             Profi megjelenés, modern, reszponzív stílus, karbantartható
             architektúra, Flexbox, Grid
           </p>
-        </section>
-        <section>
+        </div>
+        <div>
           <img src="./images/java script.png" alt="java script logó" />
           <h4>Java Script</h4>
           <p>Modern, 2022-es JavaScript, tiszta kód</p>
-        </section>
-        <section>
+        </div>
+        <div>
           <img src="./images/react.png" alt="react logó" />
           <h4>React</h4>
           <p>Modern React, hooks, komplex webalkalmazások fejlsesztése</p>
-        </section>
-        <section>
+        </div>
+        <div>
           <img src="./images/word press.png" alt="word press logó" />
           <h4>Word Press</h4>
-        </section>
-      </article>
-      <article>
+          <p>Letisztult design, pontos tervezés, precíz és gyors kivitelezés</p>
+        </div>
+      </section>
+      <section>
         <h3 id="portfólió_id">Portfólió</h3>
-        <section>
-          <img width="250" src="./images/project.jpg" alt="Projekt 1 " />
-          <h4>Projekt 1</h4>
-        </section>
-        <section>
-          <img width="250" src="./images/project.jpg" alt="Projekt 2 " />
-          <h4>Projekt 2</h4>
-        </section>
-        <section>
-          <img width="250" src="./images/project.jpg" alt="Projekt 3 " />
-          <h4>Projekt 3</h4>
-        </section>
-      </article>
+        <div>
+          <img width="300" src="./images/project.jpg" alt="Projekt 1 " />
+          <h4><a href="#">Projekt 1</a></h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt,
+            laborum.
+          </p>
+        </div>
+        <div>
+          <img width="300" src="./images/project.jpg" alt="Projekt 2 " />
+          <h4><a href="#">Projekt 2</a></h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, est!
+          </p>
+        </div>
+        <div>
+          <img width="300" src="./images/project.jpg" alt="Projekt 3 " />
+          <h4><a href="#">Projekt 3</a></h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum,
+            vero?
+          </p>
+        </div>
+      </section>
     </main>
     <aside>
       <article>
         <h3 id="Kapcsolat_id">Kapcsolat</h3>
         <fieldset>
-          <legend>Üzenet küldés</legend>
+          <legend>Írd meg miben lehetek a segítségedre.</legend>
           <form
             target="_blank"
             action="https://formspree.io/f/xrgjeayk"
             method="POST"
           >
-            <section>
+            <div>
               <label>
                 Vezetéknév:
                 <input
@@ -124,8 +141,8 @@
                   required="Add meg a vezetékneved!"
                 />
               </label>
-            </section>
-            <section>
+            </div>
+            <div>
               <label>
                 Keresztnév:
                 <input
@@ -135,8 +152,8 @@
                   required
                 />
               </label>
-            </section>
-            <section>
+            </div>
+            <div>
               <label>
                 Email cím:
                 <input
@@ -146,8 +163,8 @@
                   required
                 />
               </label>
-            </section>
-            <section>
+            </div>
+            <div>
               <label>
                 Üzenet:
                 <textarea
@@ -156,38 +173,55 @@
                   required
                 ></textarea>
               </label>
-            </section>
+            </div>
             <button type="submit" value="Küldés">Küldés</button>
           </form>
         </fieldset>
       </article>
     </aside>
     <footer>
-      <article>
-        <a target="_blank" href="https://www.linkedin.com/"
-          ><img width="50" src="./images/linkedin.png" alt="LinkedIn logó"
-        /></a>
-        <a target="_blank" href="https://github.com/"
-          ><img width="50" src="./images/github.png" alt="GitHub logó"
-        /></a>
-        <a target="_blank" href="https://hu-hu.facebook.com/"
-          ><img width="50" src="./images/facebook.png" alt="Facebook logó"
-        /></a>
-        <a target="_blank" href="https://www.instagram.com/"
-          ><img width="50" src="./images/instagram.png" alt="Instagram logó"
-        /></a>
-        <a target="_blank" href="https://www.youtube.com/"
-          ><img width="50" src="./images/youtube.png" alt="You Tube logó"
-        /></a>
-      </article>
-      <section>
-        <img width="50" src="./images/phone.png" alt="telefon logó" />
-        <span>+36304687000</span>
-      </section>
-      <section>
-        <img width="50" src="./images/e-mail.png" alt="e-mail logó" />
-        <span>bodocs.tamas@gmail.com</span>
-      </section>
+      <nav>
+        <ul>
+          <li>
+            <a target="_blank" href="https://www.linkedin.com/"
+              ><img width="50" src="./images/linkedin.png" alt="LinkedIn logó"
+            /></a>
+          </li>
+          <li>
+            <a target="_blank" href="https://github.com/"
+              ><img width="50" src="./images/github.png" alt="GitHub logó"
+            /></a>
+          </li>
+          <li>
+            <a target="_blank" href="https://hu-hu.facebook.com/"
+              ><img width="50" src="./images/facebook.png" alt="Facebook logó"
+            /></a>
+          </li>
+          <li>
+            <a target="_blank" href="https://www.instagram.com/"
+              ><img
+                width="50"
+                src="./images/instagram.png"
+                alt="Instagram logó"
+            /></a>
+          </li>
+          <li>
+            <a target="_blank" href="https://www.youtube.com/"
+              ><img width="50" src="./images/youtube.png" alt="You Tube logó"
+            /></a>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <img width="50" src="./images/phone.png" alt="telefon logó" />
+            <span>+36304687000</span>
+          </li>
+          <li>
+            <img width="50" src="./images/e-mail.png" alt="e-mail logó" />
+            <span>bodocs.tamas@gmail.com</span>
+          </li>
+        </ul>
+      </nav>
       <section>
         <button><a href="#navigáció_id">Oldal tetejére</a></button>
       </section>
