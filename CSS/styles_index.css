@@ -1,0 +1,18 @@
+/* Reset */
+html {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  --color-primary: #b48ac7;
+  --background-primary: whitesmoke;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; /* orokles */
+  font-size: 20px;
+}
+
+body {
+  background-color: var(--background-primary);
+}
