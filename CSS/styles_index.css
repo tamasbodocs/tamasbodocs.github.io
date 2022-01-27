@@ -16,3 +16,24 @@ html {
 body {
   background-color: var(--background-primary);
 }
+
+/* Header stilus */
+
+.header-nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2rem 1.5rem;
+}
+
+.header-menu {
+  display: flex;
+  list-style-type: none;
+}
+
+.header-menu__li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2rem 1.5rem;
+}
