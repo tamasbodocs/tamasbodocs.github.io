@@ -31,7 +31,7 @@
           <a href="."
             ><img
               id="navigáció_id"
-              width="50"
+              width=""
               src="./images/coding.png"
               alt="coding logó"
           /></a>
@@ -53,78 +53,114 @@
       </nav>
       <div class="fejléc_név"><h1>Bödőcs Tamás</h1></div>
       <div class="fejléc_front_end"><h2>Junior Front End fejlesztő</h2></div>
-      <div class="">
-        <img
-          src="./images/pexels-negative-space-34088.jpg"
-          alt="Profilfoto"
-          width="600"
-          height=""
-        />
+      <div class="fejléc_kép">
+        <img src="./images/pexels-negative-space-34088.jpg" alt="Profilfoto" />
       </div>
     </header>
     <main>
-      <section>
-        <h3 id="rólam_id">Rólam</h3>
-        <div>
+      <section class="rólam_tároló">
+        <h3 class="rólam_elem" id="rólam_id">Rólam</h3>
+        <div class="rólam_elem__div">
           <p>2021 novemberében kezdtem el front end tanlmányimat.</p>
-          <a href="resume.html"
-            ><img width="50" src="./images/cv_w.png" alt="cv logó"
+          <a class="rólam_elem__kép" href="resume.html"
+            ><img src="./images/cv_w.png" alt="cv logó"
           /></a>
         </div>
       </section>
-      <section>
+      <section class="ismeretek_tároló">
         <h3 id="ismeretek_id">Ismeretek</h3>
-        <div>
-          <img src="./images/html.png" alt="html logó" />
+        <div class="ismeretek_html">
+          <img
+            class="ismeretek_html-kép"
+            src="./images/html.png"
+            alt="html logó"
+          />
           <h4>HTML</h4>
           <p>
             Szemantikus markup, profi weboldalak készítése, akadálymentesítés,
             SEO-barátságos szerkezet
           </p>
         </div>
-        <div>
-          <img src="./images/css.png" alt="css logó" />
+        <div class="ismeretek_css">
+          <img
+            class="ismeretek_css-kép"
+            src="./images/css.png"
+            alt="css logó"
+          />
           <h4>CSS</h4>
           <p>
             Profi megjelenés, modern, reszponzív stílus, karbantartható
             architektúra, Flexbox, Grid
           </p>
         </div>
-        <div>
-          <img src="./images/java script.png" alt="java script logó" />
+        <div class="ismeretek_js">
+          <img
+            class="ismeretek_js-kép"
+            src="./images/java script.png"
+            alt="java script logó"
+          />
           <h4>Java Script</h4>
           <p>Modern, 2022-es JavaScript, tiszta kód</p>
         </div>
-        <div>
-          <img src="./images/react.png" alt="react logó" />
+        <div class="ismeretek_react">
+          <img
+            class="ismeretek_react-kép"
+            src="./images/react.png"
+            alt="react logó"
+          />
           <h4>React</h4>
           <p>Modern React, hooks, komplex webalkalmazások fejlsesztése</p>
         </div>
-        <div>
-          <img src="./images/word press.png" alt="word press logó" />
+        <div class="ismeretek_python">
+          <img
+            class="ismeretek_python-kép"
+            src="./images/python.png"
+            alt="python logó"
+          />
+          <h4>Python</h4>
+          <p>Back end feladatok ellátására, tiszta kód</p>
+        </div>
+        <div class="ismeretek_wp">
+          <img
+            class="wp-kép"
+            src="./images/word press.png"
+            alt="word press logó"
+          />
           <h4>Word Press</h4>
           <p>Letisztult design, pontos tervezés, precíz és gyors kivitelezés</p>
         </div>
       </section>
-      <section>
+      <section class="portfólió_tároló">
         <h3 id="portfólió_id">Portfólió</h3>
-        <div>
-          <img width="300" src="./images/project.jpg" alt="Projekt 1 " />
+        <div class="portfólió_projekt_1">
+          <img
+            class="portfólió_projekt_1_kép"
+            src="./images/project.jpg"
+            alt="Projekt 1 "
+          />
           <h4><a href="#">Projekt 1</a></h4>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt,
             laborum.
           </p>
         </div>
-        <div>
-          <img width="300" src="./images/project.jpg" alt="Projekt 2 " />
+        <div class="portfólió_projekt_2">
+          <img
+            class="portfólió_projekt_2_kép"
+            src="./images/project.jpg"
+            alt="Projekt 2 "
+          />
           <h4><a href="#">Projekt 2</a></h4>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, est!
           </p>
         </div>
-        <div>
-          <img width="300" src="./images/project.jpg" alt="Projekt 3 " />
+        <div class="portfólió_projekt_3">
+          <img
+            class="portfólió_projekt_3_kép"
+            src="./images/project.jpg"
+            alt="Projekt 3 "
+          />
           <h4><a href="#">Projekt 3</a></h4>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum,
@@ -196,40 +232,37 @@
         <ul>
           <li>
             <a target="_blank" href="https://www.linkedin.com/"
-              ><img width="50" src="./images/linkedin.png" alt="LinkedIn logó"
+              ><img src="./images/linkedin.png" alt="LinkedIn logó"
             /></a>
           </li>
           <li>
             <a target="_blank" href="https://github.com/"
-              ><img width="50" src="./images/github.png" alt="GitHub logó"
+              ><img src="./images/github.png" alt="GitHub logó"
             /></a>
           </li>
           <li>
             <a target="_blank" href="https://hu-hu.facebook.com/"
-              ><img width="50" src="./images/facebook.png" alt="Facebook logó"
+              ><img src="./images/facebook.png" alt="Facebook logó"
             /></a>
           </li>
           <li>
             <a target="_blank" href="https://www.instagram.com/"
-              ><img
-                width="50"
-                src="./images/instagram.png"
-                alt="Instagram logó"
+              ><img src="./images/instagram.png" alt="Instagram logó"
             /></a>
           </li>
           <li>
             <a target="_blank" href="https://www.youtube.com/"
-              ><img width="50" src="./images/youtube.png" alt="You Tube logó"
+              ><img width="" src="./images/youtube.png" alt="You Tube logó"
             /></a>
           </li>
         </ul>
         <ul>
           <li>
-            <img width="50" src="./images/phone.png" alt="telefon logó" />
+            <img src="./images/phone.png" alt="telefon logó" />
             <span>+36304687000</span>
           </li>
           <li>
-            <img width="50" src="./images/e-mail.png" alt="e-mail logó" />
+            <img src="./images/e-mail.png" alt="e-mail logó" />
             <span>bodocs.tamas@gmail.com</span>
           </li>
         </ul>
