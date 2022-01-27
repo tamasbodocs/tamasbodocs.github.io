@@ -52,7 +52,7 @@
         </ul>
       </nav>
       <div class="fejléc_név"><h1>Bödőcs Tamás</h1></div>
-      <div class="fejléc_front_end"><h2>Junior Front End fejlesztő</h2></div>
+      <div class="fejléc_front_end"><h2>Junior Front End Developer</h2></div>
       <div class="fejléc_kép">
         <img src="./images/pexels-negative-space-34088.jpg" alt="Profilfoto" />
       </div>
@@ -170,16 +170,17 @@
       </section>
     </main>
     <aside>
-      <article>
+      <article class="kapcsolat_tároló">
         <h3 id="Kapcsolat_id">Kapcsolat</h3>
-        <fieldset>
+        <fieldset class="kapcsolat_fieldset">
           <legend>Miben tudok segíteni?</legend>
           <form
+            class="kapcsolat_form"
             target="_blank"
             action="https://formspree.io/f/xrgjeayk"
             method="POST"
           >
-            <div>
+            <div class="form_vezetéknév">
               <label>
                 Vezetéknév:
                 <input
@@ -190,7 +191,7 @@
                 />
               </label>
             </div>
-            <div>
+            <div class="form_keresztnév">
               <label>
                 Keresztnév:
                 <input
@@ -201,7 +202,7 @@
                 />
               </label>
             </div>
-            <div>
+            <div class="form_email">
               <label>
                 Email cím:
                 <input
@@ -212,7 +213,7 @@
                 />
               </label>
             </div>
-            <div>
+            <div class="form_textarea">
               <label>
                 Üzenet:
                 <textarea
@@ -222,55 +223,89 @@
                 ></textarea>
               </label>
             </div>
-            <button type="submit" value="Küldés">Küldés</button>
+            <button class="form_button" type="submit" value="Küldés">
+              Küldés
+            </button>
           </form>
         </fieldset>
       </article>
     </aside>
-    <footer>
-      <nav>
-        <ul>
-          <li>
-            <a target="_blank" href="https://www.linkedin.com/"
+    <footer class="footer_tároló">
+      <nav class="footer_nav_tároló">
+        <ul class="footer_nav_menu">
+          <li class="footer_nav_menu__li">
+            <a
+              class="footer_menu__link"
+              target="_blank"
+              href="https://www.linkedin.com/"
               ><img src="./images/linkedin.png" alt="LinkedIn logó"
             /></a>
           </li>
-          <li>
-            <a target="_blank" href="https://github.com/"
+          <li class="footer_nav_menu__li">
+            <a
+              class="footer_menu__link"
+              target="_blank"
+              href="https://github.com/"
               ><img src="./images/github.png" alt="GitHub logó"
             /></a>
           </li>
-          <li>
-            <a target="_blank" href="https://hu-hu.facebook.com/"
+          <li class="footer_nav_menu__li">
+            <a
+              class="footer_menu__link"
+              target="_blank"
+              href="https://hu-hu.facebook.com/"
               ><img src="./images/facebook.png" alt="Facebook logó"
             /></a>
           </li>
-          <li>
-            <a target="_blank" href="https://www.instagram.com/"
+          <li class="footer_nav_menu__li">
+            <a
+              class="footer_menu__link"
+              class="footer_menu__link"
+              target="_blank"
+              href="https://www.instagram.com/"
               ><img src="./images/instagram.png" alt="Instagram logó"
             /></a>
           </li>
-          <li>
-            <a target="_blank" href="https://www.youtube.com/"
+          <li class="footer_nav_menu__li">
+            <a
+              class="footer_menu__link"
+              target="_blank"
+              href="https://www.youtube.com/"
               ><img width="" src="./images/youtube.png" alt="You Tube logó"
             /></a>
           </li>
         </ul>
-        <ul>
-          <li>
-            <img src="./images/phone.png" alt="telefon logó" />
-            <span>+36304687000</span>
+        <ul class="footer_nav_tel_mail">
+          <li class="footer_nav_tel_mail__li">
+            <div class="footer_nav_tel_mail__div_tel">
+              <img
+                class="footer_nav_tel__kép"
+                src="./images/phone.png"
+                alt="telefon logó"
+              />
+              <span class="footer_tel">+36304687000</span>
+            </div>
           </li>
-          <li>
-            <img src="./images/e-mail.png" alt="e-mail logó" />
-            <span>bodocs.tamas@gmail.com</span>
+          <li class="footer_nav_tel_mail__li">
+            <div class="footer_nav_tel_mail__div_mail">
+              <img
+                class="footer_nav_mail__kép"
+                src="./images/e-mail.png"
+                alt="e-mail logó"
+              />
+              <span class="footer_mail">bodocs.tamas@gmail.com</span>
+            </div>
           </li>
         </ul>
       </nav>
-      <section>
-        <button><a href="#navigáció_id">Oldal tetejére</a></button>
-      </section>
-      <p>Copyright &copy; 2022 Bödőcs Tamás</p>
+      <div class="footer_button">
+        <button class="footer_button_fel">
+          <a href="#navigáció_id">Oldal tetejére</a>
+        </button>
+      </div>
+      <div class="footer_copyright">
+        <p class="copyright">Copyright &copy; 2022 Bödőcs Tamás</p>
+      </div>
     </footer>
   </body>
 </html>
