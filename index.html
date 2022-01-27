@@ -16,39 +16,45 @@
         cursor: pointer;
       }
     </style>
+    <link rel="stylesheet" href="./CSS/styles.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <img
-          id="navigáció_id"
-          width="50"
-          src="./images/coding.png"
-          alt="coding logó"
-        />
-        <ul>
-          <li>
-            <a href="#rólam_id">Rólam</a>
+    <header class="header-container">
+      <nav class="header-nav-container">
+        <div class="logo">
+          <a href="."
+            ><img
+              id="navigáció_id"
+              width="50"
+              src="./images/coding.png"
+              alt="coding logó"
+          /></a>
+        </div>
+        <ul class="header-menu">
+          <li class="header-menu__li">
+            <a href="#rólam_id" class="header-li__link">Rólam</a>
           </li>
-          <li>
-            <a href="#ismeretek_id">Ismeretek</a>
+          <li class="header-menu__li">
+            <a href="#ismeretek_id" class="header-li__link">Ismeretek</a>
           </li>
-          <li>
-            <a href="#portfólió_id">Portfólió</a>
+          <li class="header-menu__li">
+            <a href="#portfólió_id" class="header-li__link">Portfólió</a>
           </li>
-          <li>
-            <a href="#Kapcsolat_id">Kapcsolat</a>
+          <li class="header-menu__li">
+            <a href="#Kapcsolat_id" class="header-li__link">Kapcsolat</a>
           </li>
         </ul>
       </nav>
-      <h1>Bödőcs Tamás</h1>
-      <h2>Junior Front End fejlesztő</h2>
-      <img
-        src="./images/pexels-negative-space-34088.jpg"
-        alt="Profilfoto"
-        width="600"
-        height=""
-      />
+      <div class="fejléc_név"><h1>Bödőcs Tamás</h1></div>
+      <div class="fejléc_front_end"><h2>Junior Front End fejlesztő</h2></div>
+      <div class="">
+        <img
+          src="./images/pexels-negative-space-34088.jpg"
+          alt="Profilfoto"
+          width="600"
+          height=""
+        />
+      </div>
     </header>
     <main>
       <section>
