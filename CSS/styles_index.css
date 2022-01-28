@@ -78,12 +78,26 @@ header {
 
 /* Main stilus - Rólam */
 
-.rólam_elem__div {
+/* .rólam_elem__div {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
   margin: 1.5rem 1.5rem 1.5rem 1.5rem;
+}
+
+.rólam_elem__div > div {
+  width: 350px;
+  margin: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}  */
+
+p /images/cv_w.png {
+  width: 50px;
 }
 
 .rólam_elem__kép {
@@ -108,10 +122,88 @@ header {
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
+  padding: 10px;
 }
 
 /* Main stilus - Portfólió */
 
+.portfólió_tároló {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  margin: 1.5rem 1.5rem 1.5rem 1.5rem;
+}
+
+.portfólió_tároló > div {
+  width: 600px;
+  margin: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 10px;
+}
+
+.portfólió_projekt_kép {
+  width: 350px;
+}
+
 /* Aside stilus */
 
 /* Footer stilus */
+
+.footer_nav_tároló {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0rem 1.5rem 0rem 1.5rem;
+}
+
+.footer_nav_menu {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: stretch;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.footer_nav_menu__li {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2rem 1.5rem;
+  font-size: 20px;
+}
+
+.footer_nav_tel_mail {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.footer_nav_tel_mail__li {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 1rem;
+  font-size: 20px;
+}
+
+.footer_menu__link {
+  width: 50px;
+  letter-spacing: 6px;
+  word-spacing: 6px;
+}
+
+.footer_nav_tel__kép {
+  width: 50px;
+  letter-spacing: 6px;
+  word-spacing: 6px;
+}
