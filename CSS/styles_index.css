@@ -23,7 +23,7 @@ body {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  margin: 0rem 1.5rem 25rem 1.5rem;
+  margin: 0rem 1.5rem 26rem 1.5rem;
 }
 
 .header-menu {
@@ -40,10 +40,9 @@ body {
   justify-content: space-between;
   margin: 2rem 1.5rem;
   font-size: 20px;
-  /* color: rgba(255, 255, 255, 0.8); */
-  /* text-decoration: none; */
   text-transform: uppercase;
-  text-decoration: rgb(255, 255, 255);
+  text-decoration: none;
+  list-style: none;
 }
 
 header {
@@ -64,37 +63,19 @@ header {
   color: rgba(255, 255, 255, 0.8);
 }
 
-.logo > {
-  font-size: 20px;
-  color: rgba(255, 255, 255, 0.8);
-}
-
 .logo_kép {
   width: 50px;
   color: rgba(255, 255, 255, 0.8);
 }
 
+.logo > h2 {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 20px;
+}
+
 /* Main stilus */
 
 /* Main stilus - Rólam */
-
-/* .rólam_elem__div {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: space-around;
-  margin: 1.5rem 1.5rem 1.5rem 1.5rem;
-}
-
-.rólam_elem__div > div {
-  width: 350px;
-  margin: 0.5rem;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-items: flex-start;
-}  */
 
 p /images/cv_w.png {
   width: 50px;
@@ -177,7 +158,6 @@ p /images/cv_w.png {
   align-items: center;
   justify-content: space-between;
   margin: 2rem 1.5rem;
-  font-size: 20px;
 }
 
 .footer_nav_tel_mail {
@@ -197,7 +177,6 @@ p /images/cv_w.png {
 }
 
 .footer_menu__link {
-  width: 50px;
   letter-spacing: 6px;
   word-spacing: 6px;
 }
@@ -206,4 +185,12 @@ p /images/cv_w.png {
   width: 50px;
   letter-spacing: 6px;
   word-spacing: 6px;
+}
+
+.footer_nav_tel_mail__li > span {
+  width: 50px;
+}
+
+.footer_copyright {
+  align-items: center;
 }
