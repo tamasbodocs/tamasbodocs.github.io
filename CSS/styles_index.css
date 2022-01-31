@@ -16,14 +16,16 @@ body {
   background-color: var(--background-primary);
 }
 
+/*****************/
 /* Header stilus */
+/*****************/
 
 .header-nav-container {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  margin: 0rem 1.5rem 26rem 1.5rem;
+  margin: 0rem 1.5rem 25rem 1.5rem;
 }
 
 .header-menu {
@@ -31,6 +33,27 @@ body {
   flex-wrap: wrap;
   list-style-type: none;
   text-decoration: none;
+}
+
+header img {
+  -webkit-box-shadow: 0px 0px 15px 0px rgba(211, 211, 211, 0.5);
+  box-shadow: 0px 0px 15px 0px rgba(211, 211, 211, 0.5);
+}
+
+header a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+header a:hover {
+  /* font-weight: bold; */
+  text-decoration: white;
+  background-color: rgba(100, 100, 100, 0.3);
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  -webkit-box-shadow: 0px 0px 15px 10px rgba(137, 137, 137, 0.5);
+  box-shadow: 0px 0px 15px 10px rgba(137, 137, 137, 0.5);
+  font-size: inherit;
 }
 
 .header-menu__li {
@@ -63,25 +86,27 @@ header {
   color: rgba(255, 255, 255, 0.8);
 }
 
-.logo_kép {
+header .logo_kép {
   width: 50px;
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255, 0);
 }
 
 .logo > h2 {
   color: rgba(255, 255, 255, 0.8);
-  font-size: 20px;
+  font-size: 25px;
 }
 
+/***************/
 /* Main stilus */
+/***************/
 
 /* Main stilus - Rólam */
 
-p /images/cv_w.png {
-  width: 50px;
+.rólam_article > section div {
+  padding: 10px;
 }
 
-.rólam_elem__kép {
+.rólam_elem__kép img {
   width: 50px;
   color: rgba(255, 255, 255, 0.8);
 }
@@ -103,7 +128,6 @@ p /images/cv_w.png {
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
-  padding: 10px;
 }
 
 /* Main stilus - Portfólió */
@@ -117,7 +141,7 @@ p /images/cv_w.png {
 }
 
 .portfólió_tároló > div {
-  width: 600px;
+  width: 400px;
   margin: 0.5rem;
   display: flex;
   flex-direction: column;
@@ -130,9 +154,31 @@ p /images/cv_w.png {
   width: 350px;
 }
 
+/****************/
 /* Aside stilus */
+/****************/
 
+form div {
+  padding: 7px;
+}
+
+.kapcsolat_fieldset {
+  background-color: rgba(100, 100, 100, 0.1);
+}
+
+.form_button {
+  padding: 3px;
+  margin: 5px;
+  font-weight: bolder;
+}
+
+.form_button:hover {
+  background-color: whitesmoke;
+}
+
+/*****************/
 /* Footer stilus */
+/*****************/
 
 .footer_nav_tároló {
   display: flex;
@@ -160,6 +206,10 @@ p /images/cv_w.png {
   margin: 2rem 1.5rem;
 }
 
+.footer_tároló img {
+  width: 50px;
+}
+
 .footer_nav_tel_mail {
   display: flex;
   flex-wrap: wrap;
@@ -176,11 +226,6 @@ p /images/cv_w.png {
   font-size: 20px;
 }
 
-.footer_menu__link {
-  letter-spacing: 6px;
-  word-spacing: 6px;
-}
-
 .footer_nav_tel__kép {
   width: 50px;
   letter-spacing: 6px;
@@ -189,8 +234,14 @@ p /images/cv_w.png {
 
 .footer_nav_tel_mail__li > span {
   width: 50px;
+  justify-content: space-between;
 }
 
 .footer_copyright {
   align-items: center;
+  text-align: center;
+}
+
+.footer_button {
+  text-decoration: none;
 }
